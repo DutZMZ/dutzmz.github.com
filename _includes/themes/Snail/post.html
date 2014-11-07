@@ -1,0 +1,35 @@
+<div id="page-content">
+	<div class="cont932">
+	<div id="journal-articles-block">
+		<div class="journal-article">
+			<div class="journal-post-info">
+				<div class="journal-cat-box">
+				{% assign categories_list = page.categories %}
+				{% assign category = categories_list.first %}
+				{% include themes/Snail/category.html %}
+				{% assign categories_list = nil %}
+				</div>
+			</div>
+			<div class="journal-body">
+				<h1 class="journal-title">
+				    {{ page.title }}
+				    <span class="author">
+				        {% if page.tagline %}{{page.tagline}}{% endif %} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{ page.date | date: "%Y-%m-%d" }}
+				     
+				    </span>
+				</h1>
+				<span class="the-article">
+				      {% assign tags_list = page.tags %}
+				      {% include themes/Snail/tags_list %}
+				{{ content }}
+				</span>
+				
+			</div>
+		</div>
+		<div class="clearboth"></div>
+	</div>
+</div>
+	<div class="clearboth"></div>
+	{% include JB/comments %}
+	<div class="clearboth"></div>
+</div>

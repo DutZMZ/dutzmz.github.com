@@ -1,0 +1,34 @@
+---
+layout: default
+title : Search
+---
+<script type="text/javascript" src="{{ ASSET_PATH }}/js/search.min.js"></script>
+<section id="search-results">
+  <p>Search results</p>
+  <div class="entries">
+  </div>
+</section>
+
+{% raw %}
+<script id="search-results-template" type="text/mustache">
+  {{#entries}}
+    <article>
+      <h3>
+        {{#date}}<small><time datetime="{{pubdate}}" pubdate>{{displaydate}}</time></small>{{/date}}
+        <a href="{{url}}">{{title}}</a>
+      </h3>
+    </article>
+  {{/entries}}
+</script>
+{% endraw %}
+
+<script type="text/javascript">
+  $(function() {
+    $('#search-query').lunrSearch({
+      indexUrl: '{{site.url}}/search.json',             // URL of the `search.json` index data for your site
+      results:  '#search-results',          // jQuery selector for the search results container
+      entries:  '.entries',                 // jQuery selector for the element to contain the results list, must be a child of the results element above.
+      template: '#search-results-template'  // jQuery selector for the Mustache.js template
+    });
+  });
+</script>
