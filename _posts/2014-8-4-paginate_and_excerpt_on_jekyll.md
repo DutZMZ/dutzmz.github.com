@@ -3,7 +3,7 @@ layout: post
 category: daily
 title: 为Jekyll增加不完美的分页和文章摘要
 tagline: by Kingauthur
-tags: [jekyll]
+tags: [Jekyll]
 ---
 怎么说呢，用Jekyll搭建Blog不管被说的多么好用，但终究应该只属于技术宅+爱折腾的群体吧，经常一个Wordpress上的小功能，却要在Jekyll折腾不少时间，比如之前的站内搜索，以及今天的分页以及文章摘要，足足折腾了我一下午，而且最后的解决方案还是不完美，有点小挫败感。
 
