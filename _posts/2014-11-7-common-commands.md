@@ -427,7 +427,7 @@ ong）参数：
 + 例子：
 
     sudo mount -t ntfs-3g /dev/sda2 win
-
+	
 ###umount
 + 功能：卸载文件系统
 
