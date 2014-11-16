@@ -104,6 +104,8 @@ drwxr-xr-x. 119 root root 12K Nov 16 03:31 /etc
 	
 上述命令显示目录/etc的信息。
 
+***
+
 ##目录处理命令
 
 ### mkdir
@@ -140,6 +142,8 @@ drwxr-xr-x. 119 root root 12K Nov 16 03:31 /etc
 
 ###clear
 功能：清屏，实际上就是让光标所在行变为当前窗口的第一行
+
+***
 
 ##文件处理命令
 
@@ -186,6 +190,8 @@ drwxr-xr-x. 119 root root 12K Nov 16 03:31 /etc
    + 硬链接文件的i节点和原文件的i节点相同
    + 硬链接不能跨越分区，也不能针对目录使用
 
+***
+   
 ##权限管理命令
 ###chmod
 + 功能：change the permission mode of files or directories,改变文件或者目录的权限。
@@ -227,8 +233,10 @@ drwxrwxr-x. 2 zmz zmz 4096 Nov 16 03:48 z
 ###chgrp
 + 功能：改变文件或者目录的所属组
 
+***
 
 ##检索命令
+
 ###find
 + 格式：find [范围] [条件]
 + 功能：在某个范围内，查询满足条件的文件和目录
@@ -246,8 +254,8 @@ drwxrwxr-x. 2 zmz zmz 4096 Nov 16 03:48 z
 [zmz@localhost tem]$ find /etc -name \*init\*
 {% endhighlight %}
 
-    + ‘\*’可以匹配任意字符串，所以上述命令的功能就是在/etc下查找名称种所有包含init的文件或者目录
-    + ‘？’可以匹配任意单个字符
++ ‘\*’可以匹配任意字符串，所以上述命令的功能就是在/etc下查找名称种所有包含init的文件或者目录
++ ‘？’可以匹配任意单个字符
 
 + -iname: 不区分大小写
 + -size： 根据文件大小来搜索：+n，表示>n, -n , 表示<n, n表示等于，单位：数据块（512B）
@@ -266,6 +274,8 @@ drwxrwxr-x. 2 zmz zmz 4096 Nov 16 03:48 z
 
 + 特例：find /etc -name init -exec ls -l {} \;
 查询结果会用ls命令显示
+
+***
 
 ##尽量少用find命令，因为会消耗很多系统资源##
 
@@ -289,6 +299,8 @@ drwxrwxr-x. 2 zmz zmz 4096 Nov 16 03:48 z
 + 格式：grep -iv [指定字符串] [文件]
 + -i：不区分大小写
 + -v：排除指定字符串
+
+***
 
 ##帮助命令
 
@@ -327,6 +339,8 @@ drwxrwxr-x. 2 zmz zmz 4096 Nov 16 03:48 z
 ###logout：退出当前登录
 
 ###runlevel：查看系统运行级别
+
+***
 
 ##压缩命令
 
@@ -380,6 +394,7 @@ drwxrwxr-x. 2 zmz zmz 4096 Nov 16 03:48 z
 ###uptime
 + 查看系统启动了多长时间
 
+***
 
 ##网络命令
 ###write

@@ -11,4 +11,4 @@ group: navigation
 >* **Github:** [DutZMZ](https://github.com/DutZMZ)
 
 *********************
-![vim logo](/img/aboutme.jpg)
+
