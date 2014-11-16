@@ -196,7 +196,7 @@ ong）参数：
 
 + 另一种方式：权限数字，r:4,w:2,x:1
 
-    [zmz@localhost tem]$ chmod 640 a
+    
     [zmz@localhost tem]$ ls -l
     total 16
     -rw-r-----. 1 zmz zmz   51 Nov 16 04:50 a
