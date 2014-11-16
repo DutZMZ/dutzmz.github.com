@@ -200,10 +200,9 @@ ong）参数：
     [zmz@localhost tem]$ ls -l
     total 16
     -rw-r-----. 1 zmz zmz   51 Nov 16 04:50 a
-    drwxrwxr-x. 3 zmz zmz 4096 Nov 16 04:28 dir1
-    drwxrwxr-x. 2 zmz zmz 4096 Nov 16 04:25 linux
-    drwxrwxr-x. 2 zmz zmz 4096 Nov 16 03:48 z
-
+	drwxrwxr-x. 3 zmz zmz 4096 Nov 16 04:28 dir1
+	drwxrwxr-x. 2 zmz zmz 4096 Nov 16 04:25 linux
+	drwxrwxr-x. 2 zmz zmz 4096 Nov 16 03:48 z
 	
     + 6=4+2,即读和写的权利，该权利对应所有者
     + 4，即读的权利，该权利对应所属组
