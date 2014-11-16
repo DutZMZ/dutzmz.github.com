@@ -26,6 +26,7 @@ Linux虽然复杂难学，但是常用的命令其实并不多。本节小z带�
     [zmz@localhost tem]$ ls
     a  z
 
+	
 以上命令是在tem目录下执行的，此时ls会列出tem目录下的子目录和文件，隐藏文件不显示。如果想显示隐藏目录，则需要添加-a参数：
 
     [zmz@localhost tem]$ ls -a
