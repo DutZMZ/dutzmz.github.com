@@ -63,7 +63,7 @@ RPM包，即二进制包、系统安装包，类似与windows中的.exe
 ###RPM包的依赖性
 
 + 树形依赖：A => B => C
-+ 环形以来：A => B => C => D
++ 环形以来：A => B => C => A
 + 模块依赖：安装A时，需要B的某个函数库。对于软件的模块依赖，可以通过[www.rpmfind.net](http://www.rpmfind.net)查询
 
 ***
