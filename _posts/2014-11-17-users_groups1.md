@@ -3,14 +3,14 @@ layout: post
 category: Linux
 title: Linux用户和用户组管理(1):用户配置文件
 tagline: by zmz
-tags: [Linux, 用户, 用户组, passwd, group, shadow, gshadow]
+tags: [Linux, 用户管理, 用户组管理]
 ---
 
 最近实验室事情较少，所以小z有更多的时间来学习Linux。接下来我们学习Linux中的用户管理和用户组管理，本章共包含4小节内容，本小节为第1小节：用户配置文件。希望对大家有所帮助^_^
 
 <!--more-->
 
-##用户信息文件:/etc/passwd
+##用户信息文件——/etc/passwd
 
 + 服务器安全性越高，则用户权限等级制度和服务器操作就越严格。
 + 在Linux中主要是通过用户配置文件来查看和修改用户信息。

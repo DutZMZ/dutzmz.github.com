@@ -3,7 +3,7 @@ layout: post
 category: Linux
 title: Linux用户和用户组管理(2):用户管理相关文件
 tagline: by zmz
-tags: [Linux, 用户, 用户组, 家目录, mail, skel]
+tags: [Linux, 用户管理, 用户组管理, 家目录, mail, skel]
 ---
 
 最近实验室事情较少，所以小z有更多的时间来学习Linux。接下来我们学习Linux中的用户管理和用户组管理，本章共包含4小节内容，本小节为第2小节：用户管理相关文件。希望对大家有所帮助^_^

@@ -3,7 +3,7 @@ layout: post
 category: Linux
 title: Linux软件包管理
 tagline: by zmz
-tags: [Linux, Vim]
+tags: [Linux]
 ---
 
 对于习惯了windows傻瓜式安装和卸载程序的小白来说，Linux的软件管理显得十分高大上，也显得很困难，很有无从下手的感觉。本小节是小z同学在学习Linux（CentOS）软件包管理时的笔记，希望对大家有所帮助^_^
