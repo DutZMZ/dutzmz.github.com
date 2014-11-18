@@ -87,9 +87,12 @@ RPM包，即二进制包、系统安装包，类似与windows中的.exe
 + RPM卸载
     + 命令：rpm -e 包名
     + -e：erase， 卸载
+	
 很多时候，卸载软件都出现错误：
 
-    error: Failed dependencies:
+{% highlight shell %}
+error: Failed dependencies:
+{% endhighlight %}
     
 因为要卸载的软件是被其他软件依赖。
 
