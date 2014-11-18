@@ -1,7 +1,7 @@
 ---
 layout: post
 category: Linux
-title: Linux用户和用户组管理(3):用户组管理命令
+title: Linux用户和用户组管理(4):用户组管理命令
 tagline: by zmz
 tags: [Linux, 用户组管理]
 ---
