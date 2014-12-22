@@ -57,7 +57,7 @@ CREATE_MAIL_SPOOL=yes
 ##用户管理命令：passwd
 
 + 为用户增加密码，普通用户只能修改自己的密码，格式：passwd
-+ -S：查询用户密码的密码状态，仅root可用，即查看shadow文件种用户的密码信息
++ -S：查询用户密码的密码状态，仅root可用，即查看shadow文件中用户的密码信息
 
 {% highlight shell %}
 [zmz@localhost ~]$ sudo passwd -S zmz
