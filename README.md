@@ -1,6 +1,7 @@
 # Simpleyyt
 
 My blog based on Jekyll-Bootstrap.
+zmz
 
 ## About Jekyll-Bootstrap
 
